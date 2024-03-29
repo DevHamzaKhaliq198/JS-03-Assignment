@@ -1,0 +1,27 @@
+/* HTML page styling */
+.navbar,#cities-bg,footer{
+    background-color:rgb(1, 1, 45);
+    
+    }
+    #statement{
+        width:85%;
+    }
+ main{height: 100vh;}
+ #alert,#name,#city,#newCity,#table{
+    width:200px;
+ }
+ #output{
+    height:180px;
+    overflow: hidden;
+ }
+ /* JS styling */
+ table{
+   margin-left:50px;
+   margin-top:10px;
+}
+   table,tr,td{
+border: 1px solid black;
+   } 
+
+   
+    
