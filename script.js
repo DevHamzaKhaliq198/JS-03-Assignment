@@ -34,6 +34,11 @@ document.getElementById("newCity").onclick=function(){
 }
 // table
 document.getElementById("table").onclick=function(){
-    document.getElementById("output").innerHTML="<table><tr><td>Sr No.</td><td>Name</td><td>Gender</td><td>Occupation</td></tr><tr><td>1</td><td>John</td><td>Male</td><td>Teacher</td></tr><tr><td>2</td><td>Tyson</td><td>Male</td><td>Soldier</td></tr><tr><td>3</td><td>Miller</td><td>Male</td><td>Doctor</td></tr><tr><td>4</td><td>Rose</td><td>Female</td><td>Shopkeeper</td></tr></table>"
+
+    let userNum=document.getElementById("statement").value
+    for(let count=1;count<=10;count++){
+        document.getElementById("output").innerHTML+=userNum +"*"+count+"="+userNum*count+"<br>"
+    }
+   
 }
 
